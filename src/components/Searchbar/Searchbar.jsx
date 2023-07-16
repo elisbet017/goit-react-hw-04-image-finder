@@ -52,4 +52,8 @@ Searchbar.propTypes = {
   onSubmit: PropTypes.func.isRequired,
 }
 
+FormError.propTypes = {
+  name: PropTypes.string.isRequired,
+}
+
 export default Searchbar;
